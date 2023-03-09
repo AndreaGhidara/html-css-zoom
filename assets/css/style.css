@@ -114,6 +114,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .recVoice{
@@ -142,8 +145,14 @@
     margin: 0 5px;
 }
 
+.close{
+    background-color: var(--grey_top);
+    height: 100%;
+    align-items: center;
+}
+
 .closeCall{
     color: red;
-    background-color: var(--grey_top);
-    padding: 35% 10px;
+    justify-content: center;
+    align-items: center;
 }
